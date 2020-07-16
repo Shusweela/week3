@@ -1,14 +1,14 @@
-header {
+.Poems__Nav {
     font-weight: bold;
     color: rgb(1, 34, 1);
     border-color: lime;
     border-bottom: dashed purple 1px;
   }
   
-  .Intro {
+  .Poems__Intro {
     background-color: lime;    
   }
   
-  .bkgrdImg {
+  .Poems__bkgrdImg {
     background-image: url("https://player.slideplayer.com/29/9460576/data/images/img0.png");
   }
