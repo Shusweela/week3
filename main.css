@@ -1,14 +1,22 @@
-.Poems__Nav {
-    font-weight: bold;
-    color: rgb(1, 34, 1);
-    border-color: lime;
-    border-bottom: dashed purple 1px;
-  }
-  
-  .Poems__Intro {
-    background-color: lime;    
-  }
-  
-  .Poems__bkgrdImg {
-    background-image: url("https://player.slideplayer.com/29/9460576/data/images/img0.png");
-  }
+/*header style with dashed bottom border*/
+.Poems--Nav {
+  font-weight: bold;
+  color: rgb(1, 34, 1);
+  border-color: lime;
+  border-bottom: dashed purple 1px;
+position: absolute
+left 50px; 
+}
+
+/*puts the intro topic with backgrd color*/
+.Poems--Intro {
+  background-color: lime; 
+  color: rgb(1, 34, 1);  
+}
+
+/*gives picture to backgrd of list of poem types*/
+.Poems--bkgrdImg {
+  background-image: url("https://player.slideplayer.com/29/9460576/data/images/img0.png");
+color: rgb(1, 34, 1);
+font-weight: bold;
+}
