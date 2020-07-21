@@ -1,11 +1,13 @@
-.input {
+/*puts border around lable-input area*/
+.client--input {
     border-top: dotted black;
     border-bottom: dotted blue;
       border-right: dotted yellow;
       border-left: dotted pink;
   }
   
-  #color {
+  /*used to decorate buttons (original comments maintained in color codes)*/
+  #client--button, #client--button-special {
     background-color: lightgrey;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e0f3fa+9,e0f3fa+30,e0f3fa+30,d8f0fc+39,b8e2f6+63,e0f3fa+77,b6dffd+100 */
   background: rgb(224,243,250); /* Old browsers */
@@ -13,5 +15,8 @@
   background: -webkit-linear-gradient(top,  rgba(224,243,250,1) 9%,rgba(224,243,250,1) 30%,rgba(224,243,250,1) 30%,rgba(216,240,252,1) 39%,rgba(184,226,246,1) 63%,rgba(224,243,250,1) 77%,rgba(182,223,253,1) 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom,  rgba(224,243,250,1) 9%,rgba(224,243,250,1) 30%,rgba(224,243,250,1) 30%,rgba(216,240,252,1) 39%,rgba(184,226,246,1) 63%,rgba(224,243,250,1) 77%,rgba(182,223,253,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e0f3fa', endColorstr='#b6dffd',GradientType=0 ); /* IE6-9 */
+  }
   
+  #client--button-special:hover {
+    background: purple;
   }
