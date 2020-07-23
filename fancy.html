@@ -11,13 +11,17 @@
 <div class="client--input">
     <h4> New Client</h4>
     <p> Today's Date:</p>
-    <p>First Name:</p>
-    <p> Last Name:</p>
+    <label for="fname">First name:</label>
+    <input type="text" id="fname" name="fname"><br><br>
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname"><br>
     <p> Birthday:</p>
     <p>Favorite Color:</p>
    <aside>
-     Male
-     Female
+     <label for="male">Male</label>
+     <input type="radio" id="male" name="gender" value="male"> <br><br>
+     <label  for="female">Female</label>
+     <input type="radio" id="female" name="gender" value="female"><br>
   </aside>
      <br>
   </div>
@@ -26,6 +30,9 @@
   <button id="client--button">Clear</button>
   <button id="client--button">Save</button>
   <button id="client--button-special">Submit</button>
+  
+  <!--animation of welcome-->
+    <h1 class= client--welcome>Welcome!</h1>
         
         </body>
         </html>
