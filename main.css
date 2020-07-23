@@ -20,3 +20,5 @@ left 50px;
 color: rgb(1, 34, 1);
 font-weight: bold;
 }
+
+@media only screen and (max-width: 600px) {...} 
